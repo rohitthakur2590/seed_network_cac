@@ -1,0 +1,7 @@
+---
+controller_templates:
+ - name: Network / Hello Network
+   execution_environment: seed_ee
+   instance_groups:
+     - default
+   inventory: Demo Inventory
