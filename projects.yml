@@ -7,4 +7,4 @@ controller_projects:
    scm_delete_on_update: 'no'
    scm_type: git
    scm_update_on_launch: 'no'
-   scm_url: https://github.com/Spredzy/seed_network_cac.git
+   scm_url: https://github.com/Spredzy/seed_network.git
