@@ -6,3 +6,4 @@ controller_templates:
      - default
    inventory: Demo Inventory
    project: Red Hat Supported Networking Playbooks
+   playbook: hello_network.yml
