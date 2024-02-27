@@ -5,3 +5,4 @@ controller_templates:
    instance_groups:
      - default
    inventory: Demo Inventory
+   project: Red Hat Supported Networking Playbooks
