@@ -8,6 +8,7 @@ controller_templates:
    project: Red Hat Supported Networking Playbooks
    playbook: hello_network.yml
    job_tags: network
+   labels: network
  - name: Network / Create Route
    execution_environment: seed_ee
    instance_groups:
@@ -16,5 +17,6 @@ controller_templates:
    project: Red Hat Supported Networking Playbooks
    playbook: create_route.yml
    job_tags: network
+   labels: network
    survey_enabled: true
    survey: "{{ lookup('template', 'template_surveys/basic_survey.json') | regex_replace('\\n', '') }}"
