@@ -7,3 +7,4 @@ controller_templates:
    inventory: Demo Inventory
    project: Red Hat Supported Networking Playbooks
    playbook: hello_network.yml
+   job_tags: network
