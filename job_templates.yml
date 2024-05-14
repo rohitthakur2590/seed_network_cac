@@ -23,7 +23,7 @@ controller_templates:
 
   - name: Network / Create Full Network Backup
     inventory: Network Validated Inventory
-    project: Red Hat Supported Validatied Content Networking Playbooks
+    project: Red Hat Supported Validated Content Networking Playbooks
     playbook: extensions/experiences/backup/playbooks/full_backup_remote.yaml
     job_type: "run"
     organization: "Default"
@@ -32,7 +32,7 @@ controller_templates:
     execution_environment: network_backup_experience_ee
   - name:  Network / Create Differential Network Backup
     inventory: Network Validated Inventory
-    project: Red Hat Supported Validatied Content Networking Playbooks
+    project: Red Hat Supported Validated Content Networking Playbooks
     playbook: extensions/experiences/backup/playbooks/diff_backup_remote.yaml
     job_type: "run"
     organization: "Default"
