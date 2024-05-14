@@ -1,6 +1,6 @@
 ---
 controller_projects:
- - name: Red Hat Supported Validatied Content Networking Playbooks
+ - name: Red Hat Supported Validated Content Networking Playbooks
    organization: Default
    scm_branch: main
    scm_clean: 'no'
