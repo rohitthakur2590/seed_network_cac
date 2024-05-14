@@ -1,10 +1,11 @@
 ---
 controller_projects:
- - name: Red Hat Supported Networking Playbooks
+ - name: Red Hat Supported Validatied Content Networking Playbooks
    organization: Default
    scm_branch: main
    scm_clean: 'no'
    scm_delete_on_update: 'no'
    scm_type: git
    scm_update_on_launch: 'no'
-   scm_url: https://github.com/Spredzy/seed_network.git
+   scm_credential: "rothakurgithubPAT"
+   scm_url: https://github.com/rohitthakur2590/network.backup
