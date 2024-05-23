@@ -1,26 +1,5 @@
 ---
 controller_templates:
-#  - name: Network / Hello Network
-#    execution_environment: seed_ee
-#    instance_groups:
-#      - default
-#    inventory: Demo Inventory
-#    project: Red Hat Supported Networking Playbooks
-#    playbook: hello_network.yml
-#    job_tags: network
-#    labels: network
-#  - name: Network / Create Route
-#    execution_environment: seed_ee
-#    instance_groups:
-#      - default
-#    inventory: Demo Inventory
-#    project: Red Hat Supported Networking Playbooks
-#    playbook: create_route.yml
-#    job_tags: network
-#    labels: network
-#    survey_enabled: true
-#    survey: "{{ lookup('template', 'template_surveys/basic_survey.json') | regex_replace('\\n', '') }}"
-
   - name: Network / Create Full Network Backup
     inventory: Network Validated Inventory
     project: Red Hat Supported Validated Content Networking Playbooks
@@ -29,7 +8,8 @@ controller_templates:
     organization: "Default"
     labels: network
     credentials: cml-instance
-    execution_environment: network_backup_experience_ee
+    execution_environment: ee_network.backup_backup
+    # execution_environment: network_backup_experience_ee
   - name:  Network / Create Differential Network Backup
     inventory: Network Validated Inventory
     project: Red Hat Supported Validated Content Networking Playbooks
@@ -38,4 +18,4 @@ controller_templates:
     organization: "Default"
     labels: network
     credentials: cml-instance
-    execution_environment: network_backup_experience_ee
+    execution_environment: ee_network.backup_backup
